@@ -10,10 +10,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@vant/area-data": "^1.0.0",
     "axios": "^0.21.1",
     "element-ui": "^2.15.1",
+    "vant": "^2.12.13",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-masonry": "^0.12.0",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -32,6 +36,7 @@
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.6.0",
     "node-notifier": "^5.1.2",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
